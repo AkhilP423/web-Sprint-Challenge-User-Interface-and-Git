@@ -31,6 +31,37 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.header-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 800px;
+    margin: auto;
+}
+
+.header-content #img1{
+    margin-bottom: 20px;
+    margin-top:10px
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:800px;
+    margin: auto;
+}
+
+.header-content .button{
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-top:34px;
+    background:none;
+    border:none;
+    
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -66,9 +97,11 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:20px;
 }
 
 .top-content {
@@ -104,7 +137,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,10 +144,48 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.row .learn{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px 10px;
+    background-color:white;
+    border-radius:6px;
 }
 
 .bottom-content .text-container {
@@ -126,6 +196,38 @@ p {
     padding-right: 0;
 }
 
+.about{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    padding-bottom:20px;
+    border-bottom: 2px dotted black;
+}
+.row{
+    margin-left:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.imgcontent{
+    margin-bottom:10px;
+}
+
+.quarter{
+    text-align:left;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:30px;
+    padding-bottom:10px;
+    border-bottom: 2px dotted black;
+}
+
+.final-row{
+    margin-left:30px;
+    margin-right:10px;
+    margin-bottom:40px;
+}
 footer {
     width: 100%;
     background: black;

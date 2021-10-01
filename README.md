@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    It is the use of HTML markup to outline the meaning of the information present in a website. For instance, a form is a semantic element that outlines the information as a form, rather than something like a div, which tells nothing about the content other than the fact that it's a separate division. The purpose of semantic HTML is to have cleaner code that's easier to proofread and easier for others to go through. You could have a <div> for almost everything, for instance, but that would be extremely messy and nearly impossible to decipher for someone else if there's a lot of code, requiring a plethora of classes and ids to properly work.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+   Display:block displays the element as a block, and can't have html elements right next to it. It also takes up the full width available on the page, creating a new line before and after the block. Display: inline displays the element inline inside the current block. It also takes up only as much width as needed, and doesn't force a line before and after the element.
 
 3. What are the 4 areas of the box model?
 
+    The four areas are the margins, the padding, the borders, and the content itself. These combine to create a "box" with manipulatable features.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    By default, the property works on the vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git has good performance and offers an easy way to collaborate on projects for a team. If someone wants to test code for themselves, they can easily clone it to their machine. Additionally, it allows the team to track changes to the code every time a member commits, allowing developers to not only see the changes, but also the reasons behind them. Additionally, this provides a way to backtrack the code as a failsafe, should a member break something substantial. Lastly, it is secure, and pretty much every developer uses it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
