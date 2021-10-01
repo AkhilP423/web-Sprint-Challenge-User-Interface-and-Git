@@ -35,17 +35,33 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    width:48%;
+    width: 800px;
     margin: auto;
+}
+
+.header-content #img1{
+    margin-bottom: 20px;
+    margin-top:10px
 }
 
 .img{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    width:48%;
+    width:800px;
     margin: auto;
 }
+
+.header-content .button{
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-top:34px;
+    background:none;
+    border:none;
+    
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -84,6 +100,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:20px;
 }
 
 .top-content {
